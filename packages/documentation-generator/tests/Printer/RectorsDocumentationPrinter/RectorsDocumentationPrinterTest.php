@@ -55,7 +55,7 @@ final class RectorsDocumentationPrinterTest extends AbstractKernelTestCase
 
     /**
      * @param class-string[] $rectorClasses
-     * @return RectorInterface[]
+     * @return object[]
      */
     private function createRectorsFromRectorClasses(array $rectorClasses): array
     {
